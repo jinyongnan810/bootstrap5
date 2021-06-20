@@ -1,3 +1,10 @@
+/* add ghost pixels to the top */
+body::before {
+  content: "";
+  display: block;
+  height: 60px;
+}
+
 /* shrink input-group to half size when larger than md */
 @media (min-width: 768px) {
   .news-input {
