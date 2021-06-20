@@ -63,7 +63,13 @@
               We focus on teaching our students the fundamentals of the latest
               and greatest technologies to prepare them for their first dev role
             </p>
-            <button class="btn btn-primary btn-lg">Start the Enrollment</button>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Start the Enrollment
+            </button>
           </div>
           <img
             class="img-fluid w-50 d-none d-sm-block"
@@ -395,6 +401,39 @@
         </a>
       </div>
     </footer>
+
+    <!-- enroll modal -->
+    <div class="modal fade" tabindex="-1" id="enroll">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Enroll</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Fill Enrollment Form</p>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="col-form-label"> Name </label>
+                <input type="text" id="name" class="form-control" />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="col-form-label"> Phone </label>
+                <input type="text" id="name" class="form-control" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+            <button class="btn btn-primary" data-bs-dismiss="modal">
+              Confirm
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"

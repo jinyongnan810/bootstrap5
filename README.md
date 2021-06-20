@@ -48,4 +48,9 @@
 
 ## Footer
 
-- use `position-relative`&`position-absolute` to set positions
+- Use `position-relative`&`position-absolute` to set positions
+
+## Enroll Modal
+
+- Use `modal-xxx` to create a modal
+- A simple form
