@@ -30,3 +30,7 @@
 ## Learn
 
 - `img-fluid` to make sure image dont overflow
+
+## Q&A
+
+- Use `accordion`
