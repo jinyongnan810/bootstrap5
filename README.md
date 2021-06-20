@@ -16,3 +16,10 @@
 
 - `input-group` to grep input and button together
 - `@media(min-width:768px)` to customize style larger than md
+
+## Boxes
+
+- Use Bootstrap Icon with `bi`(extra cdn/npm required)
+- Wrap things with `div.h1` to make things bigger
+- Make use of `row`s and `col`s. and `col-md` to make col only when larger than md
+- Make use of `card`s
