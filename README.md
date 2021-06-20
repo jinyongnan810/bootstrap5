@@ -23,3 +23,8 @@
 - Wrap things with `div.h1` to make things bigger
 - Make use of `row`s and `col`s. and `col-md` to make col only when larger than md
 - Make use of `card`s
+- Use `g-5` to make gap between cols
+
+## Learn
+
+- `img-fluid` to make sure image dont overflow
