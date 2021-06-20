@@ -17,6 +17,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Bootstrap 5 Demo</title>
   </head>
@@ -359,10 +363,44 @@
         </div>
       </div>
     </section>
+    <!-- contact -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2>Contact Us</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Tel</span>:&nbsp;&nbsp;000-8888-2222
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email</span
+                >:&nbsp;&nbsp;yuunan.kin@gmail.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Address</span>:&nbsp;&nbsp;Warabi Saitama
+              </li>
+            </ul>
+          </div>
+          <div class="col-md rounded-2" id="map"></div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1Ijoia2luODEwIiwiYSI6ImNrcTRqenVnNzB3b2oycG56ZzEzM3d3azgifQ.271zFfyyB6HXYWmg8Qogcg";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [139.706223, 35.82343],
+        zoom: 18,
+      });
+    </script>
   </body>
 </html>

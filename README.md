@@ -39,3 +39,9 @@
 
 - Card profolio with image and social media links
 - `col-md-6`&`col-lg-3` to adjust col's width
+
+## Contact
+
+- Use `list-group`
+- Use `rounded` to set border radius
+- Use MapBox
