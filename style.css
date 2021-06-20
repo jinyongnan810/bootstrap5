@@ -1,0 +1,6 @@
+/* shrink input-group to half size when larger than md */
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}

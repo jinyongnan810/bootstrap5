@@ -11,3 +11,8 @@
 
 - `d-sm-flex` to flex when bigger than sm
 - `text-center` & `text-sm-start` to make text center align start when larger than sm, and center when below small. Same way with `d-none` & `d-sm-block`
+
+## NewsLetter
+
+- `input-group` to grep input and button together
+- `@media(min-width:768px)` to customize style larger than md
