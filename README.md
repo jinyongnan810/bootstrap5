@@ -6,3 +6,8 @@
 - `navbar-toggler` to create a humberger button
 - `bg-dark` to change bg color, `navbar-dark` to change text color to white
 - `ms-auto` to push item to the right
+
+## Showcase
+
+- `d-sm-flex` to flex when bigger than sm
+- `text-center` & `text-sm-start` to make text center align start when larger than sm, and center when below small. Same way with `d-none` & `d-sm-block`
