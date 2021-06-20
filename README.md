@@ -45,3 +45,7 @@
 - Use `list-group`
 - Use `rounded` to set border radius
 - Use MapBox
+
+## Footer
+
+- use `position-relative`&`position-absolute` to set positions
